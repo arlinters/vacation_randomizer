@@ -26,7 +26,7 @@ for attempt in range(entry_count):
     random_index = random.randint(0, entry_count - 1)
     chosen = all_entries[random_index]
     count_metrics[chosen] = count_metrics[chosen] + 1
-    chosen_log.append(f"{chosen} has been chosen this time at try {attempt}.")
+    chosen_log.append(f"{chosen} has been chosen.")
 
 
 print(f"After {entry_count} attempts, the last chosen value was {chosen}.")
